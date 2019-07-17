@@ -1,0 +1,7 @@
+spring.application.name=nacos-getPerson-server
+server.port=8003
+spring.zipkin.enabled=true
+spring.zipkin.baseUrl=http://localhost:8866/
+spring.sleuth.sampler.percentage=1
+spring.cloud.nacos.discovery.server-addr=127.0.0.1:8848
+management.metrics.web.server.auto-time-requests=false
